@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2016/05/ProvisioningSchema">
+  <pnp:Preferences Author="LuisManez" Generator="Manually" Version="1.0" />
+
+  <pnp:Templates>
+    <pnp:ProvisioningTemplate ID="Package">
+
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ProvisioningTemplate.Files.xml" />
+
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ProvisioningTemplate.ComposedLook.xml" />
+
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ProvisioningTemplate.ContentTypes.xml" />
+
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ProvisioningTemplate.CustomActions.xml" />
+
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ProvisioningTemplate.Fields.xml" />
+
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ProvisioningTemplate.Lists.xml" />
+
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ProvisioningTemplate.PropertyBags.xml" />
+
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ProvisioningTemplate.Publishing.xml" />
+
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ProvisioningTemplate.WebSettings.xml" />
+
+    </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+
+</pnp:Provisioning>

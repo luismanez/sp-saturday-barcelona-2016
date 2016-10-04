@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pnp:CustomActions xmlns:pnp="http://schemas.dev.office.com/PnP/2016/05/ProvisioningSchema">
+  <pnp:SiteCustomActions>
+
+    <pnp:CustomAction
+      Name="CoreCSS"
+      Title="SPSBcn Core CSS"
+      Location="ScriptLink"
+      ScriptBlock="document.write('&lt;link rel=&quot;stylesheet&quot; After=&quot;Corev15.css&quot;  type=&quot;text/css&quot; href=&quot;~sitecollection/Style Library/spsbcn/css/spsbcn.min.css&quot;&gt;&lt;/' + 'link&gt;');"
+      Sequence="10"
+      Enabled="true" />
+
+    <pnp:CustomAction
+        Name="FetchJS"
+        Title="Fetch JS"
+        Location="ScriptLink"
+        ScriptSrc="~sitecollection/Style%20Library/spsbcn/js/external/fetch.js"
+        Sequence="10"
+        Enabled="true" />
+
+    <pnp:CustomAction
+        Name="ES6PromiseJS"
+        Title="ES6 Promise JS"
+        Location="ScriptLink"
+        ScriptSrc="~sitecollection/Style%20Library/spsbcn/js/external/es6-promise.min.js"
+        Sequence="20"
+        Enabled="true" />
+
+    <pnp:CustomAction
+        Name="PnpCoreJS"
+        Title="PnP Core JS"
+        Location="ScriptLink"
+        ScriptSrc="~sitecollection/Style%20Library/spsbcn/js/external/pnp.js"
+        Sequence="30"
+        Enabled="true" />
+
+    <pnp:CustomAction
+        Name="KnockoutJS"
+        Title="Knockout JS"
+        Location="ScriptLink"
+        ScriptSrc="~sitecollection/Style%20Library/spsbcn/js/external/knockout-3.4.0.js"
+        Sequence="40"
+        Enabled="true" />
+
+    <pnp:CustomAction
+        Name="CoreJS"
+        Title="SPSBcn Core JS"
+        Location="ScriptLink"
+        ScriptSrc="~sitecollection/Style%20Library/spsbcn/js/spsbcn.min.js"
+        Sequence="50"
+        Enabled="true" />
+
+  </pnp:SiteCustomActions>
+</pnp:CustomActions>

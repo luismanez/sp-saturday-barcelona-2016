@@ -1,0 +1,12 @@
+﻿{
+  "replacements": [
+    {
+      "match": "CDN",
+      "replacement": "https://contoso-cdn.azurewebsites.net"
+    },
+    {
+      "match": "FeedbackEmail",
+      "replacement": "prod@contoso.com"
+    }
+  ]
+}

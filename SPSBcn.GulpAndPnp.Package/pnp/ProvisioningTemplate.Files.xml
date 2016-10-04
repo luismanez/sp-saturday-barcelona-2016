@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pnp:Files xmlns:pnp="http://schemas.dev.office.com/PnP/2016/05/ProvisioningSchema">
+
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ProvisioningTemplate.Pages.xml" />
+  
+  <pnp:File Src="..\Style Library\spsbcn\css\spsbcn.min.css" Folder="{site}/Style%20Library/spsbcn/css" Overwrite="true" />
+
+  <pnp:File Src="..\Style Library\spsbcn\js\spsbcn.min.js" Folder="{site}/Style%20Library/spsbcn/js" Overwrite="true" />
+
+  <pnp:File Src="..\Style Library\spsbcn\fonts\BerlingskeSansRound-Md.eot" Folder="{site}/Style%20Library/spsbcn/fonts" Overwrite="true" />
+  <pnp:File Src="..\Style Library\spsbcn\fonts\BerlingskeSansRound-Md.svg" Folder="{site}/Style%20Library/spsbcn/fonts" Overwrite="true" />
+  <pnp:File Src="..\Style Library\spsbcn\fonts\BerlingskeSansRound-Md.ttf" Folder="{site}/Style%20Library/spsbcn/fonts" Overwrite="true" />
+  <pnp:File Src="..\Style Library\spsbcn\fonts\BerlingskeSansRound-Md.woff" Folder="{site}/Style%20Library/spsbcn/fonts" Overwrite="true" />
+
+  <pnp:File Src="..\_catalogs\theme\15\spsbcn.spcolor" Folder="{themecatalog}/15" Overwrite="true" />
+  <pnp:File Src="..\_catalogs\theme\15\spsbcn.spfont" Folder="{themecatalog}/15" Overwrite="true" />
+
+  <pnp:File Src="..\Publishing Images\logo.png" Folder="{site}/PublishingImages" Overwrite="true" />
+
+  <!--Directory DOES NOT work fine because a bug: https://github.com/OfficeDev/PnP-Sites-Core/issues/756-->
+  <!--<pnp:Directory Src="..\Style Library\spsbcn\js\external"
+                 Folder="{site}/Style%20Library/spsbcn/js/external"
+                 Overwrite="true"
+                 Recursive="true" 
+                 Level="Published" /> -->
+
+  <pnp:File Src="..\Style Library\spsbcn\js\external\es6-promise.min.js" Folder="{site}/Style%20Library/spsbcn/js/external" Overwrite="true" />
+  <pnp:File Src="..\Style Library\spsbcn\js\external\fetch.js" Folder="{site}/Style%20Library/spsbcn/js/external" Overwrite="true" />
+  <pnp:File Src="..\Style Library\spsbcn\js\external\knockout-3.4.0.js" Folder="{site}/Style%20Library/spsbcn/js/external" Overwrite="true" />
+  <pnp:File Src="..\Style Library\spsbcn\js\external\pnp.js" Folder="{site}/Style%20Library/spsbcn/js/external" Overwrite="true" />
+  <pnp:File Src="..\Style Library\spsbcn\js\external\pnp.js.map" Folder="{site}/Style%20Library/spsbcn/js/external" Overwrite="true" />
+
+  <!--<pnp:Directory Src="..\Style Library\spsbcn\html"
+                 Folder="{site}/Style%20Library/spsbcn/html"
+                 Overwrite="true"
+                 Recursive="true"
+                 Level="Published" />-->
+
+  <pnp:File Src="..\Style Library\spsbcn\html\Announcements.html" Folder="{site}/Style%20Library/spsbcn/html" Overwrite="true" />
+
+</pnp:Files>

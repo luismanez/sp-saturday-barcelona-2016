@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pnp:ComposedLook xmlns:pnp="http://schemas.dev.office.com/PnP/2016/05/ProvisioningSchema"
+                        Name="SPSBcn 2016"
+                        ColorFile="{themecatalog}/15/spsbcn.spcolor"
+                        FontFile="{themecatalog}/15/spsbcn.spfont"
+                        BackgroundFile="" Version="0" />

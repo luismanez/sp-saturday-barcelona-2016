@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pnp:Publishing 
+  xmlns:pnp="http://schemas.dev.office.com/PnP/2016/05/ProvisioningSchema"
+  AutoCheckRequirements="MakeCompliant">
+  <pnp:PageLayouts Default="EnterpriseWiki.aspx">
+    <pnp:PageLayout Path="EnterpriseWiki.aspx" />
+    <pnp:PageLayout Path="ProjectPage.aspx" />
+    <pnp:PageLayout Path="RedirectPageLayout.aspx" />
+    <pnp:PageLayout Path="BlankWebPartPage.aspx" />
+  </pnp:PageLayouts>
+</pnp:Publishing>

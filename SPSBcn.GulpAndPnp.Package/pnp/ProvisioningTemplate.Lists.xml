@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pnp:Lists xmlns:pnp="http://schemas.dev.office.com/PnP/2016/05/ProvisioningSchema">
+
+  <pnp:ListInstance Title="SPS BCN Announcements"
+                    Description=""
+                    DocumentTemplate=""
+                    TemplateType="100"
+                    Url="Lists/spsbcnannouncements"
+                    MinorVersionLimit="0"
+                    MaxVersionLimit="0"
+                    DraftVersionVisibility="0"
+                    ContentTypesEnabled="true"
+                    EnableFolderCreation="false"
+                    RemoveExistingContentTypes="true">
+    <pnp:ContentTypeBindings>
+      <pnp:ContentTypeBinding ContentTypeID="0x010088C4CDA1C112E944B3F78065BCA1F79D" Default="true" />
+    </pnp:ContentTypeBindings>
+    <pnp:Views>
+      <View Name="{72D1B31E-4AAE-4DDB-9149-26B063BD2756}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="All Items" Url="{site}/Carousel/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=42">
+        <Query>
+          <OrderBy>
+            <FieldRef Name="Modified" />
+          </OrderBy>
+        </Query>
+        <ViewFields>
+          <FieldRef Name="LinkTitle" />
+          <FieldRef Name="SPSBcnDescription" />
+          <FieldRef Name="SPSBcnMoreInfoUrl" />
+          <FieldRef Name="PublishingRollupImage" />
+        </ViewFields>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <JSLink>clienttemplates.js</JSLink>
+      </View>
+    </pnp:Views>
+    <!--=require data/AnnouncementsListData.txt -->
+  </pnp:ListInstance>
+
+</pnp:Lists>

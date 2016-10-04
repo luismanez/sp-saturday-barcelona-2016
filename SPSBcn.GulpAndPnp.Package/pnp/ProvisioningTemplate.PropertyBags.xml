@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pnp:PropertyBagEntries xmlns:pnp="http://schemas.dev.office.com/PnP/2016/05/ProvisioningSchema">
+  <pnp:PropertyBagEntry Indexed="true" Key="CP.Version" Value="1.0" Overwrite="true" />
+  <pnp:PropertyBagEntry Indexed="false" Key="CP.DeployedAt" Value="@@TimeStamp" Overwrite="true" />
+  <pnp:PropertyBagEntry Indexed="false" Key="CP.FeedbackEmail" Value="@@FeedbackEmail" Overwrite="true" />
+</pnp:PropertyBagEntries>

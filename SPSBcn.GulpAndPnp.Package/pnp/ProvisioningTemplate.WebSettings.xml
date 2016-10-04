@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<pnp:WebSettings xmlns:pnp="http://schemas.dev.office.com/PnP/2016/05/ProvisioningSchema"
+  WelcomePage="Pages/Home.aspx"
+  SiteLogo="{site}/PublishingImages/logo.png"
+  AlternateCSS=""
+  CustomMasterPageUrl="" />

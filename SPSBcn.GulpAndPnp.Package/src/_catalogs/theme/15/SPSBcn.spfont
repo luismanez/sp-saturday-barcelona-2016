@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:fontScheme name="Grosvenor" previewSlot1="title" previewSlot2="body" xmlns:s="http://schemas.microsoft.com/sharepoint/">
+  <s:fontSlots>
+    <s:fontSlot name="title">
+      <s:latin typeface="berlingske-sans-round-md"  />
+      <s:ea typeface="" />
+      <s:cs typeface="berlingske-sans-round-md" />
+    </s:fontSlot>
+    <s:fontSlot name="navigation">
+      <s:latin typeface="berlingske-sans-round-md"  />
+      <s:ea typeface="" />
+      <s:cs typeface="berlingske-sans-round-md" />
+    </s:fontSlot>
+    <s:fontSlot name="small-heading">
+      <s:latin typeface="berlingske-sans-round-md" />
+      <s:ea typeface="" />
+      <s:cs typeface="berlingske-sans-round-md" />
+    </s:fontSlot>
+    <s:fontSlot name="heading">
+      <s:latin typeface="berlingske-sans-round-md"  />
+      <s:ea typeface="" />
+      <s:cs typeface="berlingske-sans-round-md" />
+    </s:fontSlot>
+    <s:fontSlot name="large-heading">
+      <s:latin typeface="berlingske-sans-round-md" />
+      <s:ea typeface="" />
+      <s:cs typeface="berlingske-sans-round-md" />
+    </s:fontSlot>
+    <s:fontSlot name="body">
+      <s:latin typeface="berlingske-sans-round-md" />
+      <s:ea typeface="" />
+      <s:cs typeface="berlingske-sans-round-md" />
+    </s:fontSlot>
+    <s:fontSlot name="large-body">
+      <s:latin typeface="berlingske-sans-round-md"  />
+      <s:ea typeface="" />
+      <s:cs typeface="berlingske-sans-round-md" />
+    </s:fontSlot>
+  </s:fontSlots>
+</s:fontScheme>

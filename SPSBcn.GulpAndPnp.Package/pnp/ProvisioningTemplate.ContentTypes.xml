@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pnp:ContentTypes xmlns:pnp="http://schemas.dev.office.com/PnP/2016/05/ProvisioningSchema">
+
+  <pnp:ContentType ID="0x010088C4CDA1C112E944B3F78065BCA1F79D"
+                   Name="SPSBcnAnnouncement"
+                   Description="Content Type to create announcements for SPS Barcelona"
+                   Group="SPSaturday Barcelona">
+    <pnp:FieldRefs>
+      <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" Required="true" />
+      <pnp:FieldRef ID="a1f7b696-e916-414f-b6dc-f79b64cd5143" Name="SPSBcnDescription" />
+      <pnp:FieldRef ID="42191f16-a7b9-4911-9d5e-676cd409fb57" Name="SPSBcnMoreInfoUrl" />
+      <pnp:FieldRef ID="543bc2cf-1f30-488e-8f25-6fe3b689d9ac" Name="PublishingRollupImage" Required="true"/>
+    </pnp:FieldRefs>
+  </pnp:ContentType>
+
+</pnp:ContentTypes>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pnp:File xmlns:pnp="http://schemas.dev.office.com/PnP/2016/05/ProvisioningSchema"
+                  Src="..\Pages\Home.aspx"
+                  Folder="{site}/Pages"
+                  Overwrite="true">
+  <pnp:Properties>
+    <pnp:Property Key="ContentTypeId" Value="{contenttypeid:Welcome Page}" />
+    <pnp:Property Key="Title" Value="Home SPS Barcelona" />
+    <pnp:Property Key="PublishingPageLayout" Value="{masterpagecatalog}/BlankWebPartPage.aspx, Blank Web Part page" />
+    <pnp:Property Key="PublishingPageContent" Value="&lt;h1&gt;​​​​​​​​​​SPSaturday Barcelona 2016&lt;br&gt;&lt;/h1&gt;" />
+    <pnp:Property Key="BSN" Value="Microsoft.SharePoint.Client.FieldLookupValue" />
+  </pnp:Properties>
+  <pnp:WebParts>
+    <pnp:WebPart Title="Content Editor" Zone="Header" Order="0">
+      <pnp:Contents>
+        <WebPart xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/WebPart/v2">
+          <Title>Announcements custom widget</Title>
+          <FrameType>Default</FrameType>
+          <Description>Allows authors to enter rich text content.</Description>
+          <IsIncluded>true</IsIncluded>
+          <ZoneID>Header</ZoneID>
+          <PartOrder>0</PartOrder>
+          <FrameState>Normal</FrameState>
+          <Height />
+          <Width />
+          <AllowRemove>true</AllowRemove>
+          <AllowZoneChange>true</AllowZoneChange>
+          <AllowMinimize>true</AllowMinimize>
+          <AllowConnect>true</AllowConnect>
+          <AllowEdit>true</AllowEdit>
+          <AllowHide>true</AllowHide>
+          <IsVisible>true</IsVisible>
+          <DetailLink />
+          <HelpLink />
+          <HelpMode>Modeless</HelpMode>
+          <Dir>Default</Dir>
+          <PartImageSmall />
+          <MissingAssembly>Cannot import this Web Part.</MissingAssembly>
+          <PartImageLarge>/_layouts/15/images/mscontl.gif</PartImageLarge>
+          <IsIncludedFilter />
+          <Assembly>Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+          <TypeName>Microsoft.SharePoint.WebPartPages.ContentEditorWebPart</TypeName>
+          <ContentLink xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor">{site}/Style Library/spsbcn/html/Announcements.html</ContentLink>
+          <Content xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+          <PartStorage xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+        </WebPart>
+      </pnp:Contents>
+    </pnp:WebPart>
+  </pnp:WebParts>
+</pnp:File>

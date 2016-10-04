@@ -1,0 +1,12 @@
+﻿{  
+  "replacements": [
+    {
+      "match": "CDN",
+      "replacement": "https://web-qa-cdn.azurewebsites.net"
+    },
+    {
+      "match": "FeedbackEmail",
+      "replacement": "qa@clearpeople.com"
+    }
+  ]
+}

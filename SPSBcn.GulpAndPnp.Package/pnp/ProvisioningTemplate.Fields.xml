@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pnp:SiteFields xmlns:pnp="http://schemas.dev.office.com/PnP/2016/05/ProvisioningSchema">
+
+  <Field Type="Text"
+         Group="SPSaturday Barcelona"
+         DisplayName="Description"
+         Name="SPSBcnDescription"
+         ID="{a1f7b696-e916-414f-b6dc-f79b64cd5143}"
+         SourceID="http://schemas.microsoft.com/sharepoint.v3"
+         StaticName="SPSBcnDescription"
+         DisplaceOnUpgrade="TRUE"
+         Hidden="FALSE"
+         Sealed="FALSE"
+         AllowDeletion="TRUE" />
+
+  <Field Type="URL"
+         Format="Hyperlink"
+         Group="SPSaturday Barcelona"
+         DisplayName="More info Url"
+         Name="SPSBcnMoreInfoUrl"
+         ID="{42191f16-a7b9-4911-9d5e-676cd409fb57}"
+         SourceID="{fa68e798-cebf-49d4-a86a-ac6405839a24}"
+         StaticName="SPSBcnMoreInfoUrl"
+         AllowDeletion="TRUE" />
+
+</pnp:SiteFields>

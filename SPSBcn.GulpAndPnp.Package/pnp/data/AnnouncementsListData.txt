@@ -1,0 +1,17 @@
+﻿<pnp:DataRows>
+  <pnp:DataRow>
+    <pnp:DataValue FieldName="Title">Welcome to SharePoint Saturday Barcelona</pnp:DataValue>
+    <pnp:DataValue FieldName="SPSBcnDescription">SharePoint administrators, end users, architects, developers, and other professionals that work with Microsoft SharePoint Technologies will meet for the 2nd SharePoint Saturday Barcelona on October 1st 2016 at the IQS.</pnp:DataValue>
+    <pnp:DataValue FieldName="SPSBcnMoreInfoUrl">http://www.spsevents.org/city/barcelona/barcelona2016, SPS Barcelona</pnp:DataValue>
+  </pnp:DataRow>
+  <pnp:DataRow>
+    <pnp:DataValue FieldName="Title">Call for sponsors</pnp:DataValue>
+    <pnp:DataValue FieldName="SPSBcnDescription">The call for sponsors is now open! Get your company brand in front of hundreds of attendees, all interested in SharePoint, and help us to put on a great conference.</pnp:DataValue>
+    <pnp:DataValue FieldName="SPSBcnMoreInfoUrl">http://www.google.co.uk, Google</pnp:DataValue>
+  </pnp:DataRow>
+  <pnp:DataRow>
+    <pnp:DataValue FieldName="Title">What's SPS</pnp:DataValue>
+    <pnp:DataValue FieldName="SPSBcnDescription">SharePoint Saturday Events (SPS Events) is a FREE one-day event held in different cities around the world, featuring sessions from influential and respected SharePoint professionals.</pnp:DataValue>
+    <pnp:DataValue FieldName="SPSBcnMoreInfoUrl">http://www.spsevents.org/, SPSEvents</pnp:DataValue>
+  </pnp:DataRow>
+</pnp:DataRows>

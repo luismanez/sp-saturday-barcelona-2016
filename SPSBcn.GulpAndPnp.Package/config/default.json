@@ -1,0 +1,26 @@
+﻿{
+  "paths": {
+    "deployRootFolder": "./dist",
+    "scripts": [ "./**/js/app/*.js"],
+    "scriptsOrder": [ "/**/announcement-item.js" ],
+    "scriptsMinName": "spsbcn.min.js",
+    "styles": [ "./**/spsbcn/scss/*.scss" ],
+    "stylesMinName": "spsbcn.min.css",
+    "templates": [ "./**/*Provisioning*.xml", "./**/*.aspx", "./**/*.master", "!./**/dist/**" ],
+    "replacementsSrc": [ "./**/*Provisioning*.xml", "./**/*.aspx", "./**/*.master", "!./**/dist/**" ]
+  },
+  "replacements": [
+    {
+      "match": "CDN",
+      "replacement": "https://web-dev-cdn.azurewebsites.net"
+    },
+    {
+      "match": "FeedbackEmail",
+      "replacement": "dev@clearpeople.com"
+    },
+    {
+      "match": "version",
+      "replacement": "1.0.0"
+    }
+  ]
+}
